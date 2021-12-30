@@ -1,0 +1,38 @@
+.app{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 650px;
+  height: 650px;
+  font-family: "Raleway", sans-serif;
+}
+.app .controls{
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background: #ddd;
+  padding: 0px 10px;
+}
+.app .controls .title{
+  margin-right: 230px;
+  font-weight: 700;
+  color: #111;
+  width: 80px;
+}
+.app .controls .size,
+.app .controls .color{
+  margin: 0px 10px;
+}
+.app .controls .size input{
+  height: 10px;
+}
+
+#myCanvas{
+  margin-top: 100px;
+  background: #eee;
+  cursor: crosshair;
+}
+.body_background{
+  background: gray;
+}
